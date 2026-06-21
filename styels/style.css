@@ -139,6 +139,13 @@ header {
     border: 1px solid #00FF88;
 }
 
+/* about section related styls */
+.about-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+}
+
 
 /* Responsive related styles */
 /* Small device related styles */
