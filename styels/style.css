@@ -217,6 +217,7 @@ header {
 .choose-grid {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 220px);
@@ -245,7 +246,7 @@ header {
 
 .grid-description {
     color: #ffffff60;
-    line-height: 26px;
+    line-height: 25px;
 }
 
 .grid1 {
@@ -346,6 +347,25 @@ header {
 
     .choose-title {
         font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .grid-title {
+        font-size: 1rem;
+    }
+
+    .grid {
+        grid-column: span 3;
+        grid-row: span 1;
+        padding: 25px;
+    }
+
+    .choose-grid {
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .grid img {
+        width: 50px;
     }
 }
 
@@ -425,5 +445,15 @@ header {
 
     .choose-title {
         font-size: 2.5rem;
+    }
+
+    .grid {
+        grid-column: span 3;
+        grid-row: span 1;
+        padding: 25px;
+    }
+
+    .choose-grid {
+        grid-template-rows: repeat(3, 1fr);
     }
 }
