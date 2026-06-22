@@ -120,7 +120,7 @@ header {
 
 .banner-description {
     font-size: 1rem;
-    color: #ffffff;
+    color: #ffffff80;
     margin-top: 8px;
     text-align: center;
     line-height: 26px;
@@ -161,7 +161,7 @@ header {
 }
 
 .about-description {
-    color: #ffffff;
+    color: #ffffff80;
     font-size: 1rem;
     line-height: 26px;
     text-align: center;
@@ -194,10 +194,75 @@ header {
 
 .rating-text {
     font-size: 1.1rem;
-    color: #ffffff;
+    color: #ffffff80;
     text-transform: uppercase;
 }
 
+/* choose section related styles */
+.choose-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px 0px;
+    background-color: #230E3D;
+}
+
+.choose-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.choose-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 220px);
+    gap: 30px;
+}
+
+.grid {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.grid img {
+    width: 60px;
+}
+
+.grid-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.grid-description {
+    color: #ffffff60;
+    line-height: 26px;
+}
+
+.grid1 {
+    grid-row: span 2;
+}
+
+.grid2 {
+    grid-column: span 2;
+}
+
+.grid3 {
+    grid-column: span 2;
+}
+
+.grid4 {
+    grid-column: span 2;
+}
 
 /* Responsive related styles */
 /* Small device related styles */
@@ -272,9 +337,16 @@ header {
     .about-rating {
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
+        padding-bottom: 50px;
     }
 
+    .choose-section {
+        padding: 50px;
+    }
 
+    .choose-title {
+        font-size: 2rem;
+    }
 }
 
 
@@ -344,5 +416,14 @@ header {
     .about-rating {
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
+        padding-bottom: 50px;
+    }
+
+    .choose-section {
+        padding: 70px;
+    }
+
+    .choose-title {
+        font-size: 2.5rem;
     }
 }
