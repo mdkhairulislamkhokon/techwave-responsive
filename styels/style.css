@@ -265,6 +265,39 @@ header {
     grid-column: span 2;
 }
 
+/* featured related styles */
+
+.featured-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+}
+
+.featured-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+
+.featured-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+    padding: 24px 24px 16px 24px;
+}
+
 /* Responsive related styles */
 /* Small device related styles */
 @media screen and (max-width: 576px) {
