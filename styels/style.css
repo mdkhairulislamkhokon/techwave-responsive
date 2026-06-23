@@ -439,6 +439,10 @@ header {
     .card-title {
         font-size: 1rem;
     }
+
+    .featured-card span {
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -537,5 +541,9 @@ header {
     .featured-container {
         flex-direction: column;
         padding: 0 25px 0 25px;
+    }
+
+    .featured-card span {
+        padding-bottom: 20px;
     }
 }
