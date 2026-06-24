@@ -29,6 +29,23 @@ html {
     background: linear-gradient(to right, #F7E93F, #FB09B4);
 }
 
+.featured-section,
+.host-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+}
+
+.featured-title,
+.host-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+
 /* header styles */
 
 header {
@@ -267,21 +284,6 @@ header {
 
 /* featured related styles */
 
-.featured-section {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: #1A0B2E;
-}
-
-.featured-title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 120px;
-    margin-bottom: 40px;
-}
-
 .featured-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -322,6 +324,21 @@ header {
     font-weight: 500;
     padding-left: 25px;
 }
+
+/* The host section related styles */
+
+.host-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    /* aro kaj korte hobe */
+}
+
+
+
 
 /* Responsive related styles */
 /* Small device related styles */
