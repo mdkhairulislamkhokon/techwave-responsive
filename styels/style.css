@@ -514,12 +514,21 @@ header {
         flex-direction: column;
     }
 
+    .host-content {
+        text-align: center;
+    }
+
     .host-img>img {
         width: 100%
     }
 
     .content-title {
         font-size: 1.5rem;
+    }
+
+    .content-social-icon {
+        display: flex;
+        justify-content: center;
     }
 }
 
