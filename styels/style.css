@@ -326,6 +326,9 @@ header {
 }
 
 /* The host section related styles */
+.person {
+    padding-bottom: 120px;
+}
 
 .host-container {
     max-width: 1200px;
@@ -333,11 +336,48 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
-    /* aro kaj korte hobe */
+    text-align: left;
+    gap: 30px;
+    border-radius: 40px;
+    padding: 40px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
 }
 
+.host-img>img {
+    width: 450px;
+    border-radius: 50%;
+}
 
+.content-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.content-description {
+    line-height: 24px;
+    color: #ffffff60;
+    margin-bottom: 18px;
+}
+
+.content-social-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-social-icon span {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content-social-icon span:hover {}
 
 
 /* Responsive related styles */
@@ -460,6 +500,27 @@ header {
     .featured-card span {
         padding-bottom: 20px;
     }
+
+    .host-title {
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+
+    .person {
+        padding-bottom: 50px;
+    }
+
+    .host-container {
+        flex-direction: column;
+    }
+
+    .host-img>img {
+        width: 100%
+    }
+
+    .content-title {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -562,5 +623,24 @@ header {
 
     .featured-card span {
         padding-bottom: 20px;
+    }
+
+    .host-title {
+        padding-top: 50px;
+        font-size: 2.5rem;
+    }
+
+    .person {
+        padding-bottom: 50px;
+    }
+
+    .host-container {
+        /* flex-direction: column; */
+        padding: 25px 25px;
+
+    }
+
+    .host-img>img {
+        width: 100%
     }
 }
