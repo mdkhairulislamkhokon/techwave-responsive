@@ -315,7 +315,6 @@ header {
 /* featured related styles */
 
 .featured-container {
-    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 50px 20px;
     display: flex;
@@ -587,10 +586,6 @@ footer {
         padding-top: 50px;
     }
 
-    /* .featured-container {
-        flex-direction: column;
-        padding: 0 20px 0 20px;
-    } */
 
     .card-title {
         font-size: 1rem;
@@ -737,10 +732,6 @@ footer {
         padding-top: 70px;
     }
 
-    /* .featured-container {
-        flex-direction: column;
-        padding: 0 25px 0 25px;
-    } */
 
     .featured-card span {
         padding-bottom: 20px;
