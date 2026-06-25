@@ -379,6 +379,58 @@ header {
 
 .content-social-icon span:hover {}
 
+/* footer related styles */
+
+footer {
+    max-width: 1600px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(../imges/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.footer-header img {
+    width: 130%;
+    margin-bottom: 32px;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 40px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media img {
+    cursor: pointer;
+}
+
+.media-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff60;
+}
+
+.copy-right {
+    margin-top: 35px;
+    font-size: 1rem;
+    color: #ffffff60;
+    line-height: 24px;
+}
 
 /* Responsive related styles */
 /* Small device related styles */
