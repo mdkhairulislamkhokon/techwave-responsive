@@ -47,7 +47,6 @@ html {
     color: #ffffff;
     text-align: center;
     padding-top: 120px;
-    margin-bottom: 40px;
 }
 
 /* header styles */
@@ -379,8 +378,10 @@ header {
 
 }
 
-.host-img>img {
-    width: 450px;
+.host-img img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -411,9 +412,12 @@ header {
     border: 1px solid #533C72;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
-.content-social-icon span:hover {}
+.content-social-icon span:hover {
+    background: #ffffff10;
+}
 
 /* footer related styles */
 
@@ -618,9 +622,7 @@ footer {
         text-align: center;
     }
 
-    .host-img img {
-        width: 50%;
-    }
+
 
     .content-title {
         font-size: 1.5rem;
@@ -757,10 +759,6 @@ footer {
         /* flex-direction: column; */
         padding: 25px 25px;
 
-    }
-
-    .host-img>img {
-        width: 100%
     }
 
     .footer-header>h1 {
